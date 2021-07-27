@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-27T18:42:06.419Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="AdCZv-NmCnvR5Huh1cot" version="14.9.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-27T18:43:51.878Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="xyMONPtOhwQXzJPbgLFn" version="14.9.2" type="github">
   <diagram id="_RYsjmUzTV_KoG652dGi" name="Page-1">
     <mxGraphModel dx="1422" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#F1FAEE" math="0" shadow="0">
       <root>
@@ -104,7 +104,7 @@
           <mxGeometry y="312" width="240" height="26" as="geometry" />
         </mxCell>
         <mxCell id="NeNG8YdYP4pd32LcxRfp-34" value="MapTables" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=15;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" vertex="1" parent="1">
-          <mxGeometry x="1120" y="360" width="280" height="182" as="geometry" />
+          <mxGeometry x="1120" y="360" width="280" height="234" as="geometry" />
         </mxCell>
         <mxCell id="NeNG8YdYP4pd32LcxRfp-35" value="x_coordinate" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=15;fontColor=#1D3557;" vertex="1" parent="NeNG8YdYP4pd32LcxRfp-34">
           <mxGeometry y="26" width="280" height="26" as="geometry" />
@@ -118,11 +118,17 @@
         <mxCell id="NeNG8YdYP4pd32LcxRfp-38" value="map_section_id: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=15;fontColor=#1D3557;" vertex="1" parent="NeNG8YdYP4pd32LcxRfp-34">
           <mxGeometry y="104" width="280" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="NeNG8YdYP4pd32LcxRfp-39" value="MapSettingsLevels:  MapSettingsLevels" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=15;fontColor=#1D3557;" vertex="1" parent="NeNG8YdYP4pd32LcxRfp-34">
+        <mxCell id="NeNG8YdYP4pd32LcxRfp-100" value="EventMapSections   EventMapSections" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=15;fontColor=#1D3557;" vertex="1" parent="NeNG8YdYP4pd32LcxRfp-34">
           <mxGeometry y="130" width="280" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="NeNG8YdYP4pd32LcxRfp-40" value="at&#39;s and deleted" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=15;fontColor=#1D3557;" vertex="1" parent="NeNG8YdYP4pd32LcxRfp-34">
+        <mxCell id="NeNG8YdYP4pd32LcxRfp-101" value="event_map_section_id: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=15;fontColor=#1D3557;" vertex="1" parent="NeNG8YdYP4pd32LcxRfp-34">
           <mxGeometry y="156" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NeNG8YdYP4pd32LcxRfp-39" value="MapSettingsLevels:  MapSettingsLevels" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=15;fontColor=#1D3557;" vertex="1" parent="NeNG8YdYP4pd32LcxRfp-34">
+          <mxGeometry y="182" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NeNG8YdYP4pd32LcxRfp-40" value="at&#39;s and deleted" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=15;fontColor=#1D3557;" vertex="1" parent="NeNG8YdYP4pd32LcxRfp-34">
+          <mxGeometry y="208" width="280" height="26" as="geometry" />
         </mxCell>
         <mxCell id="NeNG8YdYP4pd32LcxRfp-49" value="Events" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=15;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" vertex="1" parent="1">
           <mxGeometry x="100" y="40" width="240" height="130" as="geometry" />
@@ -226,7 +232,7 @@
         <mxCell id="NeNG8YdYP4pd32LcxRfp-80" value="event_map_section?: int        ====&gt; Se modifican las sections y se crean las EventMapSections para ese Event y se generan los N EventTickets  por cada table_quantity de cada EventMapSections " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=15;fontColor=#1D3557;" vertex="1" parent="NeNG8YdYP4pd32LcxRfp-78">
           <mxGeometry y="52" width="1600" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="NeNG8YdYP4pd32LcxRfp-81" value="map_settings_level?: int        ====&gt; Se generan los levels por medio del mapa interactivo y se crean los MapSettingsLevels usando las coordenadas de MapTablesy se generan los N EventTickets por cada MapTables" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=15;fontColor=#1D3557;" vertex="1" parent="NeNG8YdYP4pd32LcxRfp-78">
+        <mxCell id="NeNG8YdYP4pd32LcxRfp-81" value="map_settings_level?: int        ====&gt; Se generan los levels por medio del mapa interactivo y se crean los MapSettingsLevels usando las coordenadas de MapTables y se generan los N EventTickets por cada MapTables" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=15;fontColor=#1D3557;" vertex="1" parent="NeNG8YdYP4pd32LcxRfp-78">
           <mxGeometry y="78" width="1600" height="26" as="geometry" />
         </mxCell>
         <mxCell id="NeNG8YdYP4pd32LcxRfp-82" value="at&#39;s and deleted" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=15;fontColor=#1D3557;" vertex="1" parent="NeNG8YdYP4pd32LcxRfp-78">
